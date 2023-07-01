@@ -4,6 +4,11 @@ from rest_framework.response import Response
 from basiM7S1.models import CadastroCliente
 import requests
 
+# As urls geradas: 
+# http://127.0.0.1:8000/api/cadastro/
+# http://127.0.0.1:8000/api/cadastrando/
+
+
 
 @api_view()
 def Cliente(requests):
